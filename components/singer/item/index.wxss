@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  align-items: center;
+  padding: 15rpx 30rpx;
+  box-sizing: border-box;
+  border-top: 1rpx solid #585858;
+  border-bottom: 1rpx solid #585858;
+  margin-bottom: -1rpx;
+}
+
+.container image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.container .name{
+  margin-left: 30rpx;
+  color: #585858;
+  font-size: 30rpx;
+}

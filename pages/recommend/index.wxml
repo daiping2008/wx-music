@@ -1,0 +1,6 @@
+<view>
+  <v-carosel banners="{{banners}}" />
+  <view class='title activeColor'>热门歌单推荐</view>
+  <v-loading wx:if="{{loading}}" />
+  <v-item wx:for="{{recommends}}" wx:key="{{id}}" recommend="{{item}}" />
+</view>

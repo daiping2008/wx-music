@@ -1,0 +1,7 @@
+<view>
+  <swiper indicator-dots="{{true}}" indicator-color="#838382" indicator-active-color="#b8b8b8">
+    <swiper-item wx:for="{{banners}}" wx:key="index">
+      <image class='item-img' src="{{item.imageUrl}}"></image>
+    </swiper-item>
+  </swiper>
+</view>

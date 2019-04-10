@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-head": "/components/head/index",
+    "v-carosel": "/components/recommend/carousel/index",
+    "v-item": "/components/recommend/item/index",
+    "v-loading": "/components/loading/index"
+  }
+}

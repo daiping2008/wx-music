@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/recommend/index",
+    "pages/rank/index",
+    "pages/search/index",
+    "pages/singer/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#585858",
+    "selectedColor": "#c7a315",
+    "backgroundColor": "#222",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/recommend/index",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/singer/index",
+        "text": "歌手"
+      },
+      {
+        "pagePath": "pages/rank/index",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "搜索"
+      }
+    ]
+  }
+}

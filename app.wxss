@@ -1,0 +1,6 @@
+page{
+  background-color: #222;
+}
+.activeColor {
+  color: #cda618;
+}

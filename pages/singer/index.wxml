@@ -1,0 +1,3 @@
+<view>
+  <v-item wx:for="{{singer}}" wx:key="{{id}}" singer="{{item}}" />
+</view>

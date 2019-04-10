@@ -1,0 +1,8 @@
+<view class="container">
+  <view class='title'>
+    <image src='images/logo@3x.png'></image>
+    <text>Music</text>
+  </view>
+
+  <image class='me' src='images/me.png'></image>
+</view>

@@ -1,0 +1,7 @@
+<view class='container'>
+  <image class='rem-img' src='{{recommend.picUrl}}'></image>
+  <view class='content'>
+    <view class='title'>{{recommend.name}}</view>
+    <view class='sub-title'>{{recommend.copywriter}}</view>
+  </view>
+</view>
