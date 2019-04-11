@@ -1,0 +1,7 @@
+var limit = function(arr, index) {
+  return arr.slice(0, index)
+}
+
+module.exports = {
+  limit: limit
+}

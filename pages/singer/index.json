@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "v-item": "/components/singer/item/index"
+    "v-item": "/components/singer/item/index",
+    "v-loading": "/components/loading/index"
   }
 }

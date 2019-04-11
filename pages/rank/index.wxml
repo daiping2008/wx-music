@@ -1,2 +1,7 @@
-<!--pages/rank/index.wxml-->
-<text>pages/rank/index.wxml</text>
+<view>
+  <v-item rank="{{newRank}}" />
+  <v-item rank="{{hotRank}}" />
+  <v-item rank="{{origRank}}" />
+  <v-item rank="{{surgeRank}}" />
+  <v-item rank="{{singerRank}}" />
+</view>

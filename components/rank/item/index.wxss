@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.img{
+  width: 200rpx;
+  height: 200rpx;
+  flex: 0 0 200rpx;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  color: #565656;
+  font-size: 26rpx;
+  font-weight: 600;
+}

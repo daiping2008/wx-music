@@ -1,2 +1,27 @@
-<!--pages/search/index.wxml-->
-<text>pages/search/index.wxml</text>
+<view class='container'>
+  <view class='search-wrapper'>
+    <image class='img' src='images/search.png'></image>
+    <input focus='{{true}}' class='input' placeholder='搜索歌曲,歌手'></input>
+  </view>
+
+  <view>
+    <view class='hot-title'>热门搜索</view>
+    <view class='hot-keys'>
+      <v-tag text="1234" />
+    </view>
+    <view class='hot-title item'>
+      <text>历史记录</text>
+      <image class='rub' src='images/rub.png'></image>
+    </view>
+    <view class='his-key'>
+      <view class='item'>
+        <text>123</text>
+        <image class='del' src='images/del.png'></image>
+      </view>
+      <view class='item'>
+        <text>123</text>
+        <image class='del' src='images/del.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

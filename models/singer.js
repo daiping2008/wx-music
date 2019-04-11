@@ -2,8 +2,8 @@ import HTTP from '../utils/http.js'
 
 class SingerModel extends HTTP {
 
-  getSinger() {
-    return this.request('/top/artists')
+  getSinger(offset = 0, limit = 50) {
+    return this.request(`/top/artists?offset=${offset}&limit=${limit}`)
   }
 }
 

@@ -1,0 +1,10 @@
+<wxs src="../../../utils/util.wxs" module="util" />
+<view class='container'>
+  <image class='img' src='{{rank.coverImgUrl}}'></image>
+  <view class='content'>
+    <view wx:for="{{util.limit(rank.tracks, 3)}}" wx:key="index" class='item'>
+      {{index+1}} {{item.name}}
+      <text wx:for="{{item.ar}}" wx:key="idx" wx:for-item="i" wx:for-index="idx"><text wx:if="idx===0">- </text>{{i.name}}</text>
+    </view>
+  </view>
+</view>
