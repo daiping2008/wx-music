@@ -2,6 +2,11 @@ var limit = function(arr, index) {
   return arr.slice(0, index)
 }
 
+var reverse = function(arr) {
+  return arr.reverse()
+}
+
 module.exports = {
-  limit: limit
+  limit: limit,
+  reverse: reverse
 }

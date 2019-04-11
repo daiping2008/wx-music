@@ -1,5 +1,5 @@
 .container {
-  padding: 30rpx;
+  padding: 80rpx 30rpx 30rpx;
   box-sizing: border-box;
 }
 
@@ -10,6 +10,10 @@
 }
 
 .search-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -26,8 +30,13 @@
   height: 100%;
   line-height: 80rpx;
   margin-left: 30rpx;
+  color: #656565;
 }
-
+.clear{
+  flex: 0 0 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
 .hot-title {
   color: #7c7c7c;
   margin-top: 50rpx;
@@ -35,10 +44,15 @@
   margin-bottom: 40rpx;
 }
 
-.hot-key {
+.hot-keys {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.hot-keys v-tag {
+  margin-left: 15rpx;
+  margin-bottom: 15rpx;
 }
 
 .del {
@@ -61,4 +75,28 @@
 .item text {
   flex: 1;
   color: #7c7c7c;
+}
+
+.song-res {
+  display: flex;
+  height: 60rpx;
+  align-items: center;
+  margin-top: 10rpx;
+}
+
+.song-res-img {
+  flex: 0 0 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.song-res-text {
+  flex: 1;
+  color: #656565;
+  font-size: 30rpx;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
